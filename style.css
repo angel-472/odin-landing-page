@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -70,17 +74,18 @@ p {
   font-size: 18px;
   color: #e5e7eb;
   margin: 0px;
-  margin-bottom: 12px;
+  margin-bottom: 24px;
   flex: 0;
 }
 
-.head .content button {
+.head .content a {
   background-color: #3882f6;
   border: 0;
   color: white;
   font-weight: bold;
   padding: 8px 24px;
   border-radius: 8px;
+  text-decoration: none;
 }
 
 .head .content .image img {
@@ -182,7 +187,7 @@ p {
   color: #e5e7eb;
 }
 
-.section-4 .content button {
+.section-4 .content a {
   background-color: #3882f6;
   border: 0;
   color: white;
@@ -190,6 +195,7 @@ p {
   padding: 8px 24px;
   border-radius: 8px;
   border: 2px solid white;
+  text-decoration: none;
 }
 
 /* footer */
