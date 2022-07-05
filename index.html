@@ -3,64 +3,67 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
-    <title>Awesome Landing Page</title>
+    <title>Save The Earth Landing Page</title>
   </head>
 
   <body>
+    <script>
+      window.history.pushState('home', 'home', 'index.html');
+    </script>
     <div class="head">
       <div class="header">
-        <a class="logo">Header Logo</a>
+        <a class="logo">#SaveTheEarth</a>
         <div class="links">
-          <a class="link">header link one</a>
-          <a class="link">header link two</a>
-          <a class="link">header link three</a>
+          <a class="link" href="#animals">animals</a>
+          <a class="link" href="#about">about</a>
+          <a class="link" href="#take-action">take action</a>
         </div>
       </div>
       <div class="content">
         <div class="text">
-          <h1>This website is awesome</h1>
-          <p>This website has some subtext that goes under the main title. It's a smaller font and the color is lower contrast</p>
-          <a>Sign up</a>
+          <h1>Let's protect the earth</h1>
+          <p>The planet and nature are our home, it's also home to all the amazing animals and things we love, and we can preserve it for future generations!</p>
+          <button>Sign up</button>
         </div>
         <div class="image">
           <img src="img/head.jpg">
         </div>
       </div>
     </div>
-    <div class="section-2">
+    <div class="section-2" id="animals">
       <div class ="content">
-        <h2>Some random information.</h2>
+        <h2>Some pictures of animals.</h2>
         <div class="imgs">
           <div class="animal">
             <img src="img/img1.jpg" alt="a bear">
-            <p>this is some subtext under an illustration or image</p>
+            <p>a baby bear</p>
           </div>
           <div class="animal">
             <img src="img/img2.jpg" alt="a squirell">
-            <p>this is some subtext under an illustration or image</p>
+            <p>a fat squirell</p>
           </div>
           <div class="animal">
             <img src="img/img3.jpg" alt="an owl">
-            <p>this is some subtext under an illustration or image</p>
+            <p>a beautiful owl</p>
           </div>
           <div class="animal">
             <img src="img/img4.jpg" alt="a dog">
-            <p>this is some subtext under an illustration or image</p>
+            <p>a lovely dog</p>
           </div>
         </div>
       </div>
     </div>
-    <div class="section-3">
+    <div class="section-3" id="about">
       <div class="content">
         <p class="quote">This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All i know is that it looks nice.</p>
         <p class="author">-Thor, God of Thunder</p>
       </div>
     </div>
-    <div class="section-4">
-      <div class="content">
+    <div class="section-4" id="take-action">
+      <div class="content" id="call-to-action">
         <div class="text">
           <h2>Call to action! It's time!</h2>
-          <p>Sign up for our product by clicking that button right over there!<p>
+          <p>Help us on our mission to protect the earth by joining us!<p>
         </div>
         <div class="btn">
           <a href="#">Sign up</a>
