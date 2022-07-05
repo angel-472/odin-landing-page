@@ -173,19 +173,9 @@ button {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  background-color: #e5e7eb;
+  background-color: #1f2937;
   padding: 100px 0px;
   color: white;
-}
-
-/*parallax*/
-.section-3 {
-  background: linear-gradient(rgba(33, 34, 36, 0.7), rgba(33, 34, 36, 0.7)), url("img/parallax1.jpg");
-  min-height: 100%;
-  background-attachment: fixed;
-  background-position: bottom;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .section-3 .content {
@@ -214,6 +204,16 @@ button {
   align-items: center;
   background-color: #181a1b;
   padding: 96px 0px;
+}
+
+/*parallax*/
+.section-4 {
+  background: linear-gradient(rgba(33, 34, 36, 0.5), rgba(33, 34, 36, 0.5)), url("img/parallax1.jpg");
+  min-height: 100%;
+  background-attachment: fixed;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .section-4 .content {
