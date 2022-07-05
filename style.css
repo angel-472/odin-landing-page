@@ -160,11 +160,12 @@ button {
   object-fit: cover;
   width: 150px;
   height: 150px;
-  border-radius: 10px;
+  border-radius: 100%;
+  border:;
 }
 
 .section-2 .imgs p {
-  margin-top: 10px;
+  margin-top: 16px;
 }
 
 /* third section */
