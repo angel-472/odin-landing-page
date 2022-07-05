@@ -156,3 +156,44 @@ p {
   font-weight: bold;
   font-size: 24px;
 }
+
+/* fourth section */
+.section-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 96px 0px;
+}
+
+.section-4 .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #3882f6;
+  border-radius: 10px;
+  padding: 48px 96px;
+  width: 720px;
+  color: white;
+}
+
+.section-4 .content .text p {
+  color: #e5e7eb;
+}
+
+.section-4 .content button {
+  background-color: #3882f6;
+  border: 0;
+  color: white;
+  font-weight: bold;
+  padding: 8px 24px;
+  border-radius: 8px;
+  border: 2px solid white;
+}
+
+/* footer */
+.footer {
+  background-color: #1f2937;
+  color: white;
+  text-align: center;
+  padding: 32px 0px;
+}
