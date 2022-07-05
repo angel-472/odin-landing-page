@@ -180,23 +180,25 @@ button {
 
 /*parallax*/
 .section-3 {
-  background: linear-gradient(rgba(33, 34, 36, 0.4), rgba(33, 34, 36, 0.7)), url("img/parallax2.jpg");
+  background: linear-gradient(rgba(33, 34, 36, 0.7), rgba(33, 34, 36, 0.7)), url("img/parallax1.jpg");
   min-height: 100%;
   background-attachment: fixed;
-  background-position: center;
+  background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .section-3 .content {
-  padding: 0px 235px;
+  margin: 0px 235px;
   max-width: 772px;
   margin: auto;
+  background-color: #181a1b;
+  padding: 48px;
 }
 
 .section-3 .quote {
   font-size: 36px;
-  font-weight: 200;
+  font-weight: 300;
 }
 
 .section-3 .author {
